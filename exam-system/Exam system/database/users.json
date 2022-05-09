@@ -1,0 +1,14 @@
+{
+    "Vartotojai": [
+        {
+            "Role": "Destytojas",
+            "Slaptazodis": "qwe",
+            "Slapyvardis": "Jonas"
+        },
+        {
+            "Role": "Studentas",
+            "Slaptazodis": "asd",
+            "Slapyvardis": "Petras"
+        }
+    ]
+}

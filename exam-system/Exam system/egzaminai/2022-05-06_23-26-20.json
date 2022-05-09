@@ -1,0 +1,38 @@
+{
+    "Vardas": "Petras",
+    "Pavarde": "Petraitis",
+    "Neteisingi atsakymai": 0,
+    "Teisingai atsakyta proc.": 100,
+    "Pavadinimas": "Geografija",
+    "Testas": [
+        {
+            "Klausimas": "Lietuvos sostine:",
+            "A": "Kaunas",
+            "B": "Vilnius",
+            "Teisingas atsakymas": "b",
+            "C": "Klaipeda",
+            "D": "Alytus",
+            "Studento atsakymas": "b"
+        },
+        {
+            "Klausimas": "Lenkijos sostine:",
+            "A": "Varsuva",
+            "B": "Ryga",
+            "Teisingas atsakymas": "a",
+            "C": "Berlynas",
+            "D": "Madridas",
+            "Studento atsakymas": "a"
+        },
+        {
+            "Klausimas": "Vokietijos sostine",
+            "A": "Helsinkis",
+            "B": "Talinas",
+            "Teisingas atsakymas": "d",
+            "C": "Paryzius",
+            "D": "Berlynas",
+            "Studento atsakymas": "d"
+        }
+    ],
+    "Data": "2022-05-06 23:26:20",
+    "Teisingi atsakymai": 3
+}

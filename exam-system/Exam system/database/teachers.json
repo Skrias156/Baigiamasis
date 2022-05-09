@@ -1,0 +1,56 @@
+{
+    "Destytojai": {
+        "Jonas": [
+            {
+                "Egzaminas": [
+                    {
+                        "Klausimas": "Lietuvos sostine:",
+                        "A": "Kaunas",
+                        "B": "Vilnius",
+                        "C": "Klaipeda",
+                        "D": "Alytus",
+                        "Atsakymas": "b"
+                    },
+                    {
+                        "Klausimas": "Lenkijos sostine:",
+                        "A": "Varsuva",
+                        "B": "Ryga",
+                        "C": "Berlynas",
+                        "D": "Madridas",
+                        "Atsakymas": "a"
+                    },
+                    {
+                        "Klausimas": "Vokietijos sostine",
+                        "A": "Helsinkis",
+                        "B": "Talinas",
+                        "C": "Paryzius",
+                        "D": "Berlynas",
+                        "Atsakymas": "d"
+                    }
+                ],
+                "Pavadinimas": "Geografija"
+            },
+            {
+                "Egzaminas": [
+                    {
+                        "Klausimas": "2*2=?",
+                        "A": "3",
+                        "B": "4",
+                        "C": "5",
+                        "D": "6",
+                        "Atsakymas": "b"
+                    },
+                    {
+                        "Klausimas": "3+3=?",
+                        "A": "3",
+                        "B": "4",
+                        "C": "5",
+                        "D": "6",
+                        "Atsakymas": "d"
+                    }
+                ],
+                "Pavadinimas": "Matematika"
+            }
+        ]
+    }
+}

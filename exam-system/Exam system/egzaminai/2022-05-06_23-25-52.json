@@ -1,0 +1,29 @@
+{
+    "Vardas": "Petras",
+    "Pavarde": "Petraitis",
+    "Neteisingi atsakymai": 2,
+    "Teisingai atsakyta proc.": 0,
+    "Pavadinimas": "Matematika",
+    "Testas": [
+        {
+            "Klausimas": "2*2=?",
+            "A": "3",
+            "B": "4",
+            "Teisingas atsakymas": "b",
+            "C": "5",
+            "D": "6",
+            "Studento atsakymas": "a"
+        },
+        {
+            "Klausimas": "3+3=?",
+            "A": "3",
+            "B": "4",
+            "Teisingas atsakymas": "d",
+            "C": "5",
+            "D": "6",
+            "Studento atsakymas": "a"
+        }
+    ],
+    "Data": "2022-05-06 23:25:52",
+    "Teisingi atsakymai": 0
+}
