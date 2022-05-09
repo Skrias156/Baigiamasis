@@ -54,31 +54,6 @@ public class FileService {
         return data;
     }
 
-    /** Create assets */
-    public void createAssets() throws IOException {
-        File file = new File(this.getDirectoryAssetsPath());
-
-        // Assets directory exist
-        if (file.isDirectory())
-            return;
-
-        // Create assets
-        file.mkdir();
-        new File(this.getDirectoryDatabasePath()).mkdir();
-        new File(this.getDirectoryExamPath()).mkdir();
-        new File(this.getFileUsersPath()).createNewFile();
-        new File(this.getFileTeachersPath()).createNewFile();
-        new File(this.getFileResultsPath()).createNewFile();
-
-        // Create default JSON objects
-        this.writeData(this.getFileUsersPath(),
-                new DatabaseService().createDefaulObject(DatabaseService.TABLE_USERS, new JSONArray()));
-        this.writeData(this.getFileTeachersPath(),
-                new DatabaseService().createDefaulObject(DatabaseService.TABLE_TEACHERS, new JSONObject()));
-        this.writeData(this.getFileResultsPath(),
-                new DatabaseService().createDefaulObject(DatabaseService.TABLE_EXAMS, new JSONObject()));
-
-    }
 
     /** Get teachers file */
     public String getFileResultsPath() throws IOException {

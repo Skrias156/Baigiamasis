@@ -11,15 +11,7 @@ import exam.system.models.Client;
 public class App {
 
     public static void main(String[] args) {
-
-        // If no assets than create
-        try {
-            new FileService().createAssets();
-        } catch (IOException e) {
-            System.err.println("Nepavyko sukurti programos failu.");
-            return;
-        }
-
+        
         // Services
         ScannerService scannerService = new ScannerService();
         ClientService clientService = new ClientService(scannerService);

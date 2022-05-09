@@ -92,7 +92,7 @@ public class DatabaseService {
         this.fileService.writeData(this.fileService.getFileResultsPath(), main);
     }
 
-    /** Get exam task date */
+    /** Task result */
     public String getExamTaskCorrectPercents(String taskTitle, String userName, String userSurname)
             throws FileNotFoundException, IOException, ParseException {
         JSONObject exams = (JSONObject) this.fileService.readData(this.fileService.getFileResultsPath())
